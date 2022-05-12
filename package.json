@@ -1,0 +1,30 @@
+{
+  "name": "latex_bot",
+  "version": "1.0.0",
+  "description": "latex-like image renderer for mathematical formulae in nodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlaskz/latex_bot.git"
+  },
+  "keywords": [
+    "latex",
+    "js",
+    "node",
+    "mathematics"
+  ],
+  "author": "Isaias C. Velasquez (vlaskz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vlaskz/latex_bot/issues"
+  },
+  "homepage": "https://github.com/vlaskz/latex_bot#readme",
+  "dependencies": {
+    "mathjax": "^3.2.0",
+    "mathjax-node": "^2.1.1"
+  }
+}
